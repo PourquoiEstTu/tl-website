@@ -18,6 +18,7 @@ h1 {
     /* border: 2px solid red; */
     display: flex;
     justify-content: right;
+    margin-bottom:20px;
 }
 
 .album-cover {
@@ -33,6 +34,11 @@ h1 {
     display: table-caption;
     caption-side: bottom;
     font-size: 18px;
+}
+
+.embed {
+    display: flex;
+    justify-content: center;
 }
 
 table {
