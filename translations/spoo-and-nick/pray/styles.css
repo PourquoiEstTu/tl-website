@@ -10,6 +10,10 @@ h1 {
     align-items: center;
 }
 
+.song-info-para {
+    font-size: 18px;
+}
+
 .lyrics-table {
     /* border: 2px solid red; */
     display: flex;
@@ -28,6 +32,7 @@ h1 {
 .album-cover-caption {
     display: table-caption;
     caption-side: bottom;
+    font-size: 18px;
 }
 
 table {
@@ -39,4 +44,8 @@ table {
 
 th {
     font-size: 22px;
+}
+
+td {
+    font-size: 18px;
 }

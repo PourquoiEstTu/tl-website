@@ -7,6 +7,11 @@ h1 {
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.song-info-para {
+    font-size: 18px;
 }
 
 .lyrics-table {
@@ -14,6 +19,22 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+.album-cover {
+    display: table;
+}
+
+.album-cover-image {
+    height: 280px;
+    width: 280px;
+}
+
+.album-cover-caption {
+    display: table-caption;
+    caption-side: bottom;
+    font-size: 18px;
+}
+
 
 table {
     border-spacing: 15px;
@@ -24,6 +45,10 @@ table {
 
 th {
     font-size: 22px;
-    height: 28px;
+    /* height: 28px; */
     /* border: 2px solid red; */
+}
+
+td {
+    font-size: 18px;
 }
