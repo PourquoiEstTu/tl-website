@@ -7,12 +7,27 @@ h1 {
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .lyrics-table {
     /* border: 2px solid red; */
     display: flex;
     justify-content: right;
+}
+
+.album-cover {
+    display: table;
+}
+
+.album-cover-image {
+    height: 250px;
+    width: 250px;
+}
+
+.album-cover-caption {
+    display: table-caption;
+    caption-side: bottom;
 }
 
 table {
