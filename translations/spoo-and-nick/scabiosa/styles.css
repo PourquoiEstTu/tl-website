@@ -29,7 +29,7 @@ h1 {
 .lyrics-table {
     /* border: 2px solid red; */
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin-bottom: 20px;
 }
 
@@ -62,9 +62,9 @@ h1 {
 }
 
 table {
-    border-spacing: 15px;
-    width: 75%;
-    font-size: 18px;
+    border-spacing: 10px;
+    width: 90%;
+    /* font-size: 18px; */
     /* border: 2px solid red; */
 }
 
@@ -75,7 +75,7 @@ th {
 }
 
 td {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .video-title {
