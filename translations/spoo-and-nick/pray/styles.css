@@ -54,6 +54,10 @@ h1 {
     justify-content: center;
 }
 
+.video-title {
+    text-align: center;
+}
+
 table {
     border-spacing: 15px;
     width: 90%;
