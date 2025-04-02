@@ -62,7 +62,7 @@ h1 {
 }
 
 table {
-    border-spacing: 10px;
+    border-spacing: 1em 0;
     width: 90%;
     /* font-size: 18px; */
     /* border: 2px solid red; */
