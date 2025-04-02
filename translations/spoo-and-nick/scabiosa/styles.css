@@ -53,12 +53,26 @@ h1 {
     justify-content: center;
 }
 
+.video-title {
+    text-align: center;
+    font-size: 28px;
+}
+
 .tl-notes {
-    margin: 50px;
+    /* margin: 50px; */
+    display: flex;
+    justify-content: center;
+}
+
+.tl-notes h2 {
+    text-align: center;
+    font-size: 28px;
 }
 
 .tl-notes p {
     text-indent: 3em;
+    max-inline-size: 100ch;
+    font-size: 18px;
 }
 
 table {
@@ -76,8 +90,4 @@ th {
 
 td {
     font-size: 18px;
-}
-
-.video-title {
-    text-align: center;
 }
