@@ -26,12 +26,12 @@ h1 {
     font-size: 18px;
 }
 
-.lyrics-table {
-    /* border: 2px solid red; */
+/* .lyrics-table { margin percentages work better than the flexbox approach for now
+    border: 2px solid red; 
     display: flex;
-    justify-content: right;
+    justify-content: center;
     margin-bottom: 20px;
-}
+} */
 
 .album-cover {
     display: table;
@@ -63,7 +63,9 @@ h1 {
 
 table {
     border-spacing: 10px;
-    width: 90%;
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 85%;
     /* font-size: 18px; */
     /* border: 2px solid red; */
 }
