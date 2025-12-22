@@ -53,10 +53,14 @@ h1 {
     justify-content: center;
 }
 
-.tl-notes {
+.tl-notes, .footnote {
     /* margin: 50px; */
     display: flex;
     justify-content: center;
+}
+
+.footnote {
+	margin-top: 20px;
 }
 
 .tl-notes h2 {
@@ -68,6 +72,15 @@ h1 {
     text-indent: 3em;
     max-inline-size: 100ch;
     font-size: 18px;
+}
+
+.footnote li  { 
+    max-inline-size: 100ch;
+    font-size: 18px;
+}
+
+.footnote li + li { 
+	margin-top: 15px;
 }
 
 table {
@@ -93,6 +106,6 @@ td {
     text-align: center;
 }
 
-a.footnote {
+a.footnote-ref {
 	text-decoration: none;
 }
