@@ -92,3 +92,7 @@ td {
 .video-title {
     text-align: center;
 }
+
+a.footnote {
+	text-decoration: none;
+}
