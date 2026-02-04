@@ -39,13 +39,14 @@ h1 {
 
 .album-cover-image {
     height: 280px;
-    width: 280px;
+    width: 400px;
 }
 
 .album-cover-caption {
     display: table-caption;
     caption-side: bottom;
     font-size: 18px;
+	text-align: center;
 }
 
 .embed {
