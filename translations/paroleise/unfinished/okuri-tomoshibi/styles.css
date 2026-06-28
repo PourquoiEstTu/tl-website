@@ -20,6 +20,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+	margin-top: 20px;
 }
 
 .song-info-para {
@@ -109,6 +110,11 @@ td {
 
 a.footnote-ref {
 	text-decoration: none;
+}
+
+.index-link {
+    text-align: center;
+	font-size: 20px;
 }
 
 /* ol { */
